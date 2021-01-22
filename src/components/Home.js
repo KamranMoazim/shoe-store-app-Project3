@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import Image from '../static/shoe1.jpg'; // Import using relative path
 import AllProducts from './AllProducts'
 

@@ -2,12 +2,10 @@ import {Link} from 'react-router-dom'
 import React, {useContext} from 'react'
 import {ContextWorker} from '../Data/Context'
 import { fade, makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
 import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
@@ -94,9 +92,9 @@ export default function NavBar() {
   const {cart} = useContext(ContextWorker)
   // console.log(cart.length)
 
-  const handleProfileMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+  // const handleProfileMenuOpen = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
 
   const handleMobileMenuClose = () => {
     setMobileMoreAnchorEl(null);

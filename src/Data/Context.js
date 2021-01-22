@@ -1,4 +1,4 @@
-import React, { useReducer, createContext, useState, Children } from 'react'
+import React, { useReducer, createContext } from 'react'
 import Shoes from '../shoe.json'
 import cartReducer from './Reducer'
 
